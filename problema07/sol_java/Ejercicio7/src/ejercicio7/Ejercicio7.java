@@ -25,7 +25,8 @@ public class Ejercicio7 {
         numero = scanner.nextInt();
         auxiliar=numero;
         if (numero < 2 || numero % 2 != 0) {
-            System.out.println("El número debe ser mayor o igual a 2 y par");
+            System.out.println("Error. El número debe ser mayor o igual a "
+                    + "2 y par");
         } else {
             while (numero >= 2) {
                 suma += numero;
