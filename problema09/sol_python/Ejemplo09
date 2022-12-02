@@ -18,21 +18,3 @@ print(s1)
 
 
 
-
-#paula
-once=int(input(0))
-doce=int(input(0))                 #S1 = 12-11+24-22+36-33+48-44
-mensaje="S1 = 12"
-contador=int(input(1))
-
-while contador <= 7:
-    if contador !=0:
-        once =once + 11
-        mensaje = mensaje + "-" + once
-    else:
-        doce =doce + 12
-        men = mensaje + "+" + doce
-
-    contador = contador + 1
-
-print(mensaje)
